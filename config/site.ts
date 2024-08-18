@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Neuronube",
-  description: "Make beautiful websites regardless of your design experience.",
+  description: "Soporte IT de Alta Calidad para Empresas Modernas",
   navItems: [
     {
       label: "Inicio",
@@ -70,6 +70,6 @@ export const siteConfig = {
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://patreon.com/jrgarciadev",
-    facebook: "https://facebook.com"
+    facebook: "https://www.facebook.com/Neuronube"
   },
 };
