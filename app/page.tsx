@@ -30,23 +30,48 @@ export default function Home() {
       </div>
     </div>
 
-    {/* Services Section */}
-    <div className="py-16 text-center">
-      <h2 className="text-3xl font-semibold mb-8">Nuestras Soluciones</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Card Example */}
-        <Card>
-          <CardHeader className="font-bold text-xl">Soporte en la Nube</CardHeader>
-          <CardBody>
-            <p>Optimiza y protege tus servicios en la nube con nuestras soluciones expertas.</p>
-          </CardBody>
-          <CardFooter>
-            <Link href="/soluciones/nube">Leer más</Link>
-          </CardFooter>
-        </Card>
-        {/* Añade más tarjetas según lo necesites */}
+      {/* Services Section */}
+      <div className="py-16 text-center">
+        <h2 className="text-3xl font-semibold mb-8">Nuestras Soluciones</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Soporte técnico y mantenimiento Card */}
+          <Card>
+            <img src="https://res.cloudinary.com/dqofcbeaq/image/upload/v1724082251/neuronube/pexels-jeshoots-4316_uggvla.jpg" alt="Soporte Técnico" className="w-full h-48 object-cover rounded-t-lg" />
+            <CardHeader className="font-bold text-xl mt-4">Soporte técnico y mantenimiento</CardHeader>
+            <CardBody>
+              <p>Ofrecemos soporte técnico profesional, ya sea de manera remota o presencial, y realizamos mantenimiento preventivo para garantizar el rendimiento óptimo de tu infraestructura IT. Nuestro equipo altamente capacitado está listo para resolver problemas técnicos y prevenir futuros inconvenientes, asegurando así un funcionamiento continuo y eficiente.</p>
+            </CardBody>
+            <CardFooter>
+              {/*<Link href="/soluciones/odoo">Leer más</Link> */} 
+            </CardFooter>
+          </Card>
+          
+          {/* Soporte y desarrollo para módulos de Odoo Card */}
+          <Card>
+            <img src="https://res.cloudinary.com/dqofcbeaq/image/upload/v1724082250/neuronube/pexels-luis-gomes-166706-546819_tydkfj.jpg" alt="Odoo" className="w-full h-48 object-cover rounded-t-lg" />
+            <CardHeader className="font-bold text-xl mt-4">Desarrollo para Odoo</CardHeader>
+            <CardBody>
+              <p>Ofrecemos soporte integral, capacitación y desarrollo personalizado de módulos para Odoo. Nuestro objetivo es adaptar la solución ERP a las necesidades específicas de tu empresa, asegurando una implementación y uso eficientes.</p>
+            </CardBody>
+            <CardFooter>
+             {/*<Link href="/soluciones/odoo">Leer más</Link> */} 
+            </CardFooter>
+          </Card>
+          
+          {/* Telecomunicaciones Card */}
+          <Card>
+            <img src="https://res.cloudinary.com/dqofcbeaq/image/upload/v1724082746/neuronube/pexels-pixabay-60504_sz9chr.jpg" alt="Telecomunicaciones" className="w-full h-48 object-cover rounded-t-lg" />
+            <CardHeader className="font-bold text-xl mt-4">Telecomunicaciones</CardHeader>
+            <CardBody>
+              <p>Especialistas en cableado estructurado, configuración de equipos y seguridad perimetral. Implementamos soluciones para asegurar una red eficiente y protegida, con un enfoque en la configuración de firewalls y la seguridad de tu infraestructura.</p>
+            </CardBody>
+            <CardFooter>
+              {/*<Link href="/soluciones/odoo">Leer más</Link> */} 
+            </CardFooter>
+          </Card>
+        </div>
       </div>
-    </div>
+
 
     {/* Contact Section */}
     <div className="py-16 text-center bg-gradient-to-r from-purple-500 to-indigo-500 text-white">
